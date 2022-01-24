@@ -1,0 +1,23 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `e:/UserFiles/Desktop/2022wi/cse455/uwimg'
+mkdir -p obj
+g++ -std=c++11  -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/image_opencv.cpp -o obj/image_opencv.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/load_image.c -o obj/load_image.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/hw0/process_image.c -o obj/process_image.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/args.c -o obj/args.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/hw2/filter_image.c -o obj/filter_image.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/hw1/resize_image.c -o obj/resize_image.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/test.c -o obj/test.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/hw3/harris_image.c -o obj/harris_image.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/matrix.c -o obj/matrix.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/hw3/panorama_image.c -o obj/panorama_image.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/hw4/flow_image.c -o obj/flow_image.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/list.c -o obj/list.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/data.c -o obj/data.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/hw5/classifier.c -o obj/classifier.o
+gcc -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -shared obj/image_opencv.o obj/load_image.o obj/process_image.o obj/args.o obj/filter_image.o obj/resize_image.o obj/test.o obj/harris_image.o obj/matrix.o obj/panorama_image.o obj/flow_image.o obj/list.o obj/data.o obj/classifier.o -o libuwimg.so -lm -pthread 
+ar rcs libuwimg.a obj/image_opencv.o obj/load_image.o obj/process_image.o obj/args.o obj/filter_image.o obj/resize_image.o obj/test.o obj/harris_image.o obj/matrix.o obj/panorama_image.o obj/flow_image.o obj/list.o obj/data.o obj/classifier.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast -c ./src/main.c -o obj/main.o
+gcc -Iinclude/ -Isrc/  -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  -Ofast obj/main.o obj/image_opencv.o obj/load_image.o obj/process_image.o obj/args.o obj/filter_image.o obj/resize_image.o obj/test.o obj/harris_image.o obj/matrix.o obj/panorama_image.o obj/flow_image.o obj/list.o obj/data.o obj/classifier.o -o uwimg -lm -pthread  
+make.exe: Leaving directory `e:/UserFiles/Desktop/2022wi/cse455/uwimg'
+ 

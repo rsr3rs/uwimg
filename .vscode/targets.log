@@ -1,0 +1,500 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Sun Jan 23 17:13:39 2022
+
+# ����
+
+# �Զ�
+<D = $(patsubst %/,%,$(dir $<))
+# �Զ�
+?F = $(notdir $?)
+# makefile (from `makefile', line 6)
+OBJ = image_opencv.o load_image.o process_image.o args.o filter_image.o resize_image.o test.o harris_image.o matrix.o panorama_image.o flow_image.o list.o data.o classifier.o
+# makefile
+MAKEFLAGS = Rrqp
+# ����
+VSCODE_LOG_NATIVE = false
+# �Զ�
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `makefile', line 19)
+OPTS = -Ofast
+# �Զ�
+@D = $(patsub 
+st %/,%,$(dir $@))
+# ����
+HOMEDRIVE = C:
+# �Զ�
+@F = $(notdir $@)
+# �Զ�
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := e:/UserFiles/Desktop/2022wi/cse455/uwimg
+# Ĭ��
+SHELL := sh.exe
+# makefile (from `makefile', line 21)
+COMMON = -Iinclude/ -Isrc/ 
+# ����
+WINDIR = C:\Windows
+# ����
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `makefile', line 35)
+CFLAGS = -Wall -Wno-unknown-pragmas -Wfatal-errors -fPIC  $(OPTS)
+# ����
+ONEDRIVE = C:\Users\Alienware\OneDrive
+# ����
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# makefile (from `makefile', line 3)
+DEBUG = 0
+# ����
+TMP = C:\Users\ALIENW~1\AppData\Local\Temp
+# ����
+VSCODE_VERBOSE_LOGGING = true
+# ����
+PROGRAMW6432 = C:\Program Files
+# makefile (from `makefile', line 45)
+OBJS = $(addprefix $(OBJDIR), $(OBJ))
+# ����
+PROGRAMDATA = C:\ProgramData
+# ����
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-12e7f9e3-c978-4760-bc67-9b3b9fa1f726-sock
+# makefile (from `makefile', line 44)
+EXOBJS = $(addprefix $(OBJDIR), $(EXOBJ))
+# makefile (from `makefile', line 16)
+CPP = g++ -std=c++11 
+# ����
+VSCODE_CWD = E:\Program Files (x86)\Microsoft VS Code
+# ����
+PATH = E:\Program Files\Python37\Scripts\;E:\Program Files\Python37\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Program Files\Git\cmd;E:\Program Files\PuTTY\;E:\Program Files (x86)\GnuWin32\bin;C:\Users\Alienware\.cargo\bin;C:\Users\Alienware\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;E:\Program Files (x86)\Microsoft VS Code\bin;E:\Program Files\JetBrains\PyCharm 2021.2.3\bin;
+# ����
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ����
+ZES_ENABLE_SYSMAN = 1
+# ����
+PROCESSOR_ARCHITECTURE = x86
+# ����
+USERPROFILE = C:\Users\Alienware
+# ����
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from `makefile', line 9)
+VPATH = ./src/:./:./src/hw0:./src/hw1:./src/hw2:./src/hw3:./src/hw4:./src/hw5:./src/hw6:./src/hw7
+# makefile (from `makefile', line 17)
+AR = ar
+# ����
+VSCODE_LOG_STACK = false
+# ����
+NUMBER_OF_PROCESSORS = 8
+# ����
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `makefile', line 20)
+LDFLAGS = -lm -pthread 
+# makefile (from `makefile', line 10)
+SLIB = libuwimg.so
+# Ĭ��
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �Զ�
+%F = $(notdir $%)
+# ����
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23132_RZBDMIHWWRBPUIEG
+# ����
+VSCODE_PIPE_LOGGING = true
+# ����
+COMPUTERNAME = PC-RS-R9
+# ����
+PROGRAMFILES = C:\Program Files (x86)
+# ����
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ����
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `makefile', line 1)
+OPENCV = 0
+# ����
+USERNAME = Alienware
+# ����
+PUBLIC = C:\Users\Public
+# ����
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# ����
+VSCODE_CODE_CACHE_PATH = C:\Users\Alienware\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
+# ����
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# ����
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ����
+LOGONSERVER = \\PC-RS-R9
+# ����
+ONEDRIVECONSUMER = C:\Users\Alienware\OneDrive
+# ����
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ����
+USERDOMAIN = PC-RS-R9
+# makefile (from `makefile', line 4)
+VERBOSE = 0
+# Ĭ��
+MAKE = $(MAKE_COMMAND)
+# Ĭ��
+MAKECMDGOALS := all
+# makefile (from `makefile', line 15)
+CC = gcc
+# makefile (from `makefile', line 12)
+EXEC = uwimg
+# Ĭ��
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `makefile', line 7)
+EXOBJ = main.o
+# ����
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �Զ�
+%D = $(patsubst %/,%,$(dir $%))
+# ����
+LOCALAPPDATA = C:\Users\Alienware\AppData\Local
+# ����
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# makefile (from `makefile', line 18)
+ARFLAGS = rcs
+# Ĭ��
+MAKE_COMMAND := make.exe
+# ����
+PROCESSOR_ARCHITEW6432 = AMD64
+# Ĭ��
+.VARIABLES := 
+# �Զ�
+*F = $(notdir $*)
+# ����
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+# ����
+OS = Windows_NT
+# ����
+VSCODE_IPC_HOOK = \\.\pipe\6c10608cc16ab1afef3b8d9c1df930d9-1.63.2-main-sock
+# ����
+HOMEPATH = \Users\Alienware
+# ����
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ����
+PROMPT = $P$G
+# ����
+MFLAGS = -Rrqp
+# �Զ�
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `makefile', line 2)
+OPENMP = 0
+# ����
+SYSTEMROOT = C:\Windows
+# �Զ�
++D = $(patsubst %/,%,$(dir $+))
+# �Զ�
++F = $(notdir $+)
+# ����
+APPDATA = C:\Users\Alienware\AppData\Roaming
+# ����
+TEMP = C:\Users\ALIENW~1\AppData\Local\Temp
+# ����
+COMSPEC = C:\Windows\system32\cmd.exe
+# Ĭ��
+MAKEFILES := 
+# �Զ�
+<F = $(notdir $<)
+# makefile (from `makefile', line 13)
+OBJDIR = ./obj/
+# ����
+LC_ALL = C
+# makefile (from `makefile', line 11)
+ALIB = libuwimg.a
+# �Զ�
+^F = $(notdir $^)
+# makefile (from `makefile', line 46)
+DEPS = $(wildcard src/*.h) Makefile 
+# Ĭ��
+SUFFIXES := 
+# ����
+SYSTEMDRIVE = C:
+# ����
+SESSIONNAME = Console
+# ����
+PROCESSOR_REVISION = 9e0d
+# ����
+PYCHARM = E:\Program Files\JetBrains\PyCharm 2021.2.3\bin;
+# ����
+MAKELEVEL := 0
+# ����
+LANG = C
+# ����
+PROCESSOR_LEVEL = 6
+# ����
+VSCODE_PID = 23132
+# ����
+USERDOMAIN_ROAMINGPROFILE = PC-RS-R9
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=21/162=13%
+
+# Pattern-specific Variable Values
+
+# û�� pattern-specific ������ֵ��
+
+# Ŀ¼
+
+# C:\Program Files\Common Files\Oracle\Java\javapath (�ؼ��� C:/Program Files/Common Files/Oracle/Java/javapath���޸�ʱ�� 1634256878)��6 �ļ��� �� impossibilities.
+# C:\Program Files\Bandizip\ (�ؼ��� C:/Program Files/Bandizip/���޸�ʱ�� 1632885056)��20 �ļ��� �� impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (�ؼ��� C:/Windows/System32/WindowsPowerShell/v1.0/���޸�ʱ�� 1632011411)��34 �ļ��� �� impossibilities.
+# C:\Windows\System32\Wbem (�ؼ��� C:/Windows/System32/Wbem���޸�ʱ�� 1641980519)��156 �ļ��� �� impossibilities.
+# . (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg���޸�ʱ�� 1642986817)��20 �ļ��� �� impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (�ؼ��� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common���޸�ʱ�� 1631950306)��10 �ļ��� �� impossibilities.
+# E:\Program Files\JetBrains\PyCharm 2021.2.3\bin (�ؼ��� E:/Program Files/JetBrains/PyCharm 2021.2.3/bin���޸�ʱ�� 1636653799)��28 �ļ��� �� impossibilities.
+# E:\Program Files\Python37\ (�ؼ��� E:/Program Files/Python37/���޸�ʱ�� 1636656047)��18 �ļ��� �� impossibilities.
+# ./src (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg/src���޸�ʱ�� 1642986736)��23 �ļ��� �� impossibilities.
+# E:\Program Files\Python37\Scripts\ (�ؼ��� E:/Program Files/Python37/Scripts/���޸�ʱ�� 1636656119)��36 �ļ��� �� impossibilities.
+# C:\Windows\System32\OpenSSH\���޷�������� stat ������
+# ./src/hw4 (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg/src/hw4���޸�ʱ�� 1642986736)��4 �ļ��� �� impossibilities.
+# E:\Program Files\PuTTY\ (�ؼ��� E:/Program Files/PuTTY/���޸�ʱ�� 1634019891)��12 �ļ��� �� impossibilities.
+# ./src/hw0 (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg/src/hw0���޸�ʱ�� 1642986736)��4 �ļ��� �� impossibilities.
+# C:\Windows (�ؼ��� C:/Windows���޸�ʱ�� 1639648103)��114 �ļ��� �� impossibilities.
+# ./src/hw3 (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg/src/hw3���޸�ʱ�� 1642986736)��5 �ļ��� �� impossibilities.
+# src (�ؼ��� e:/UserFiles/Desktop/2022wi/cse 
+455/uwimg/src���޸�ʱ�� 1642986736)��23 �ļ��� �� impossibilities.
+# ./src/hw7���޷�������� stat ������
+# ./src/hw6���޷�������� stat ������
+# C:\Users\Alienware\.cargo\bin (�ؼ��� C:/Users/Alienware/.cargo/bin���޸�ʱ�� 1634018768)��15 �ļ��� �� impossibilities.
+# E:\Program Files\Git\cmd (�ؼ��� E:/Program Files/Git/cmd���޸�ʱ�� 1633994062)��8 �ļ��� �� impossibilities.
+# C:\Windows\system32 (�ؼ��� C:/Windows/system32���޸�ʱ�� 1642543537)��3099 �ļ��� �� impossibilities.
+# ./src/hw2 (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg/src/hw2���޸�ʱ�� 1642986736)��4 �ļ��� �� impossibilities.
+# ./src/hw5 (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg/src/hw5���޸�ʱ�� 1642986736)��4 �ļ��� �� impossibilities.
+# C:\Users\Alienware\AppData\Local\Microsoft\WindowsApps (�ؼ��� C:/Users/Alienware/AppData/Local/Microsoft/WindowsApps���޸�ʱ�� 1642896553)��21 �ļ��� �� impossibilities.
+# ./src/hw1 (�ؼ��� e:/UserFiles/Desktop/2022wi/cse455/uwimg/src/hw1���޸�ʱ�� 1642986736)��4 �ļ��� �� impossibilities.
+# E:\Program Files (x86)\Microsoft VS Code\bin (�ؼ��� E:/Program Files (x86)/Microsoft VS Code/bin���޸�ʱ�� 1642231331)��4 �ļ��� �� impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (�ؼ��� C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR���޸�ʱ�� 1631949793)��5 �ļ��� �� impossibilities.
+# E:\Program Files (x86)\GnuWin32\bin (�ؼ��� E:/Program Files (x86)/GnuWin32/bin���޸�ʱ�� 1639359806)��5 �ļ��� �� impossibilities.
+
+# 3682 �ļ��� �� impossibilities in 29 directories.
+
+# Implicit Rules
+
+obj/%.o: %.c src/args.h src/image.h src/list.h src/matrix.h src/stb_image.h src/stb_image_write.h src/test.h Makefile
+#  Ҫִ�е����� (�ӡ�makefile������ 62)��
+	$(CC) $(COMMON) $(CFLAGS) -c $< -o $@
+	
+
+obj/%.o: %.cpp src/args.h src/image.h src/list.h src/matrix.h src/stb_image.h src/stb_image_write.h src/test.h Makefile
+#  Ҫִ�е����� (�ӡ�makefile������ 65)��
+	$(CPP) $(COMMON) $(CFLAGS) -c $< -o $@
+	
+
+# 2 ����������0 (0.0%) �նˡ�
+
+# �ļ�
+
+# ����һ��Ŀ�꣺
+obj/args.o:
+#  �����������������δ��ɡ�
+ 
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+all: obj libuwimg.so libuwimg.a uwimg
+#  ������Ŀ�ꡣ
+#  �������������������ɡ�
+#  �ļ������ڡ�
+#  �ļ��Ѿ������¡�
+#  ��Ҫ���� (�� -q �趨)��
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+# ����һ��Ŀ�꣺
+obj/list.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+.PHONY: clean
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+.DEFAULT:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/harris_image.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/data.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/filter_image.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/image_opencv.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/main.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/load_image.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+makefile:
+#  �������������������ɡ�
+#  ������� 2022-01-23 17:12:16
+#  �ļ��Ѿ������¡�
+#  ���³ɹ���
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+libuwimg.a: obj/image_opencv.o obj/load_image.o obj/process_image.o obj/args.o obj/filter_image.o obj/resize_image.o obj/test.o obj/harris_image.o obj/matrix.o obj/panorama_image.o obj/flow_image.o obj/list.o obj/data.o obj/classifier.o
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+#  Ҫִ�е����� (�ӡ�makefile������ 56)��
+	$(AR) $(ARFLAGS) $@ $^
+	
+
+# ����һ��Ŀ�꣺
+obj/flow_image.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/resize_image.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/test.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/classifier.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+obj:
+#  �����������������δ��ɡ�
+#  ����/��̬ģʽ���ɣ�����
+#  �ļ������ڡ�
+#  �ļ��Ѿ������¡�
+#  ��Ҫ���� (�� -q �趨)��
+# �Զ�
+# @ := obj
+# �Զ�
+# % := 
+# �Զ�
+# * := 
+# �Զ�
+# + := 
+# �Զ�
+# | := 
+# �Զ�
+# < := 
+# �Զ�
+# ^ := 
+# �Զ�
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  Ҫִ�е����� (�ӡ�makefile������ 68)��
+	mkdir -p obj
+	
+
+# ����һ��Ŀ�꣺
+.SUFFIXES:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  �����������������δ��ɡ�
+#  �ļ������ڡ�
+#  �ļ���δ�����¡�
+#  Ҫִ�е����� (�ӡ�makefile������ 73)��
+	rm -rf $(OBJS) $(SLIB) $(ALIB) $(EXEC) $(EXOBJS) $(OBJDIR)/*
+	
+
+libuwimg.so: obj/image_opencv.o obj/load_image.o obj/process_image.o obj/args.o obj/filter_image.o obj/resize_image.o obj/test.o obj/harris_image.o obj/matrix.o obj/panorama_image.o obj/flow_image.o obj/list.o obj/data.o obj/classifier.o
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+#  Ҫִ�е����� (�ӡ�makefile������ 59)��
+	$(CC) $(CFLAGS) -shared $^ -o $@ $(LDFLAGS)
+	
+
+# ����һ��Ŀ�꣺
+obj/process_image.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# ����һ��Ŀ�꣺
+obj/panorama_image.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+uwimg: obj/main.o obj/image_opencv.o obj/load_ima 
+ge.o obj/process_image.o obj/args.o obj/filter_image.o obj/resize_image.o obj/test.o obj/harris_image.o obj/matrix.o obj/panorama_image.o obj/flow_image.o obj/list.o obj/data.o obj/classifier.o
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+#  Ҫִ�е����� (�ӡ�makefile������ 53)��
+	$(CC) $(COMMON) $(CFLAGS) $^ -o $@ $(LDFLAGS) 
+	
+
+# ����һ��Ŀ�꣺
+obj/matrix.o:
+#  �����������������δ��ɡ�
+#  �Ӳ�����޸�ʱ�䡣
+#  �ļ���δ�����¡�
+
+# files hash-table stats:
+# Load=25/1024=2%, Rehash=0, Collisions=1/102=1%
+# VPATH ����·��
+
+# û�С�vpath������·����
+
+# ͨ������·��(��VPATH������)��
+# ./src;./src/hw0;./src/hw1;./src/hw2;./src/hw3;./src/hw4;./src/hw5
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jan 23 17:13:39 2022
+
+ 
